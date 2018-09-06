@@ -51,8 +51,6 @@ def run(args):
 		train_steps = 0
 		while epoch<args.num_epoch:
 			print('*'*40)
-			#train_loss = 0.0
-			#train_corrects = 0.0
 			valid_loss = 0.0
 			valid_corrects = 0.0
 			valid_steps = 0
